@@ -1,8 +1,14 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Section from './Section';
+import ReactGA from 'react-ga4'
+
+const gaId = 'G-DLND0RK08H'
+
+ReactGA.initialize(gaId);
 
 const Hunters = () => {
     const [content, setContent] = useState('mentors');
+    
 
     const contentData = {
         sponsors: {
