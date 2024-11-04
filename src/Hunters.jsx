@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Section from './Section';
 import ReactGA from 'react-ga4'
 
-const gaId = 'G-DLND0RK08H;
+const gaId = 'G-DLND0RK08H';
 
 ReactGA.initialize(gaId);
 
